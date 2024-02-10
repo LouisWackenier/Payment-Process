@@ -1,12 +1,15 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
+//PAGES
+import Home from "./Pages/Home";
+
 function App() {
 
   return (
     <div>
       <Navbar />
-      <h1>payment process</h1>
+          <Home/>
       <Footer />
     </div>
   )
