@@ -13,10 +13,18 @@ const Title = styled.h3`
    background-color: transparent;
 `;
 
+const Buttons = styled.button`
+    text-align: center;
+    font-weight: 1rem;
+`;
+
 const Navbar = () => {
   return (
     <MainContainer>
-         <Title>Title Site</Title>        
+         <Title>Title Site</Title>     
+         <Buttons>$</Buttons>   
+         <Buttons>Registration</Buttons>   
+         <Buttons>Log In</Buttons>   
     </MainContainer>
   )
 }
