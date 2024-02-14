@@ -2,11 +2,11 @@ import styled from "styled-components"
 
 const MainContainer = styled.div`
     height: 5vh;
-    width: 99.8vw;
+    width: 98vw;
 
     display: flex;
     background-color: #166665;
-    font-size: 3rem;
+    font-size: 1rem;
 `;
 
 const Title = styled.h3`
@@ -18,16 +18,16 @@ const DepositButton = styled.button`
     border: transparent;
     border-radius: 10px;
     background-color: #1B7E7D;
-    font-size: 4rem;
-    margin-top: 10px;
+    font-size: 2rem;
+    margin-top: 0.5px;
 
-    width: 110px;
-    height: 110px;
+    width: 50px;
+    height: 50px;
 `;
 
 const RegistrationButton = styled.button`
     background-color: #BDD922;
-    font-size: 3rem;
+    font-size: 1rem;
     width: 5vw;
 
     margin-left: 1vw;
@@ -35,14 +35,14 @@ const RegistrationButton = styled.button`
 
 const LogInButton = styled.button`
     background-color: #197272;
-    font-size: 3rem;
-    width: 4vw;
+    font-size: 1rem;
+    width: 100px;
 `;
 
 const ButtonContainer = styled.div`
     display: flex;
     text-align: right;
-    margin-left: 75vw;
+    margin-left: 77vw;
 `;
 
 const Navbar = () => {
