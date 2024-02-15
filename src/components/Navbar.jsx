@@ -11,7 +11,7 @@ const MainContainer = styled.div`
 
 const Title = styled.h3`
    background-color: transparent;
-   margin-left: 1vw;
+   margin-left: 0.5vw;
 `;
 
 const DepositButton = styled.button`
@@ -30,6 +30,7 @@ const RegistrationButton = styled.button`
     font-size: 1rem;
     width: 5vw;
 
+    margin-right: 1vw;
     margin-left: 1vw;
 `;
 
@@ -42,7 +43,7 @@ const LogInButton = styled.button`
 const ButtonContainer = styled.div`
     display: flex;
     text-align: right;
-    margin-left: 77vw;
+    margin-left: 79vw;
 `;
 
 const Navbar = () => {
