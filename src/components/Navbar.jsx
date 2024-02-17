@@ -1,15 +1,15 @@
 import styled from "styled-components"
 
 const MainContainer = styled.div`
-    height: 5vh;
-    width: 98vw;
+    height: 6vh;
+    width: 99vw;
 
     display: flex;
     background-color: #166665;
     font-size: 1rem;
 `;
 
-const Title = styled.h3`
+const Title = styled.h4`
    background-color: transparent;
    margin-left: 0.5vw;
 `;
