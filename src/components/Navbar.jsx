@@ -21,25 +21,37 @@ const DepositButton = styled.button`
     border-radius: 10px;
     background-color: #1B7E7D;
     font-size: 2rem;
-    margin-top: 0.5px;
+    margin-top: 0.5vh;
 
     width: 50px;
     height: 50px;
 `;
 
 const RegistrationButton = styled.button`
+    margin-top: 12px;
     background-color: #BDD922;
     font-size: 1rem;
     width: 5vw;
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
 
     margin-right: 1vw;
     margin-left: 1vw;
 `;
 
 const LogInButton = styled.button`
+    margin-top: 12px;
     background-color: #197272;
     font-size: 1rem;
     width: 100px;
+    
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
 `;
 
 const ButtonContainer = styled.div`
@@ -51,7 +63,9 @@ const ButtonContainer = styled.div`
 const Navbar = () => {
   return (
     <MainContainer>
-         <Title>Title Site</Title>     
+         <Link to="/" style={{ textDecoration: 'none', backgroundColor: 'transparent'}}>
+           <Title>Title Site</Title>     
+         </Link>
          <ButtonContainer>
             <Link to="/Select payment" style={{ textDecoration: 'none', backgroundColor: 'transparent'}}>
             <DepositButton>$</DepositButton> 

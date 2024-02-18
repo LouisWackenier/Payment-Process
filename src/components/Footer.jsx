@@ -1,6 +1,14 @@
+import styled from "styled-components";
+
+const MainContainer = styled.div`
+      height: 4vh;
+`;
+
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <MainContainer>
+          
+    </MainContainer>
   )
 }
 
