@@ -1,5 +1,7 @@
 import styled from "styled-components"
 
+import { Link } from "react-router-dom";
+
 const MainContainer = styled.div`
     height: 6vh;
     width: 99vw;
@@ -51,9 +53,15 @@ const Navbar = () => {
     <MainContainer>
          <Title>Title Site</Title>     
          <ButtonContainer>
-             <DepositButton>$</DepositButton>   
-             <RegistrationButton>Registration</RegistrationButton>   
-             <LogInButton>Log In</LogInButton>   
+            <Link to="/Select payment" style={{ textDecoration: 'none', backgroundColor: 'transparent'}}>
+            <DepositButton>$</DepositButton> 
+            </Link>             
+            <Link to="/" style={{ textDecoration: 'none', backgroundColor: 'transparent'}}>
+            <RegistrationButton>Registration</RegistrationButton>  
+            </Link>   
+             <Link to="/" style={{ textDecoration: 'none', backgroundColor: 'transparent'}}>
+             <LogInButton>Log In</LogInButton> 
+             </Link>  
          </ButtonContainer>
     </MainContainer>
   )
