@@ -32,6 +32,8 @@ const RegistrationButton = styled.button`
     background-color: #BDD922;
     font-size: 1rem;
     width: 5vw;
+    border-radius: 5px;
+    border: transparent;
 
     padding-top: 7px;
     padding-bottom: 7px;
@@ -40,6 +42,11 @@ const RegistrationButton = styled.button`
 
     margin-right: 1vw;
     margin-left: 1vw;
+    transition: background-color 1s;
+
+    &:hover {
+      background-color: darkblue;
+    }
 `;
 
 const LogInButton = styled.button`
@@ -47,11 +54,18 @@ const LogInButton = styled.button`
     background-color: #197272;
     font-size: 1rem;
     width: 100px;
+    border-radius: 5px;
+    border: transparent;
     
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 12px;
     padding-right: 12px;
+    transition: background-color 1s;
+
+    &:hover {
+      background-color: darkblue;
+    }
 `;
 
 const ButtonContainer = styled.div`
