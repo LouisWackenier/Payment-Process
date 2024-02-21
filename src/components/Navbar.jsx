@@ -21,7 +21,6 @@ const DepositButton = styled.button`
     border-radius: 10px;
     background-color: #1B7E7D;
     font-size: 2rem;
-    margin-top: 0.5vh;
 
     width: 50px;
     height: 50px;
@@ -39,9 +38,6 @@ const RegistrationButton = styled.button`
     padding-bottom: 7px;
     padding-left: 16px;
     padding-right: 16px;
-
-    margin-right: 1vw;
-    margin-left: 1vw;
     transition: background-color 1s;
 
     &:hover {
@@ -50,7 +46,6 @@ const RegistrationButton = styled.button`
 `;
 
 const LogInButton = styled.button`
-    margin-top: 12px;
     background-color: #197272;
     font-size: 1rem;
     width: 100px;
