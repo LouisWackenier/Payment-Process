@@ -17,6 +17,7 @@ const Title = styled.h4`
 `;
 
 const DepositButton = styled.button`
+    margin-top: 2px;
     border: transparent;
     border-radius: 10px;
     background-color: #1B7E7D;
@@ -33,11 +34,13 @@ const RegistrationButton = styled.button`
     width: 5vw;
     border-radius: 5px;
     border: transparent;
+    margin-left: 1vw;
+    margin-right: 1vw;
 
     padding-top: 7px;
     padding-bottom: 7px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 6px;
+    padding-right: 18px;
     transition: background-color 1s;
 
     &:hover {
@@ -46,6 +49,7 @@ const RegistrationButton = styled.button`
 `;
 
 const LogInButton = styled.button`
+    margin-top: 12px;
     background-color: #197272;
     font-size: 1rem;
     width: 100px;
@@ -67,6 +71,7 @@ const ButtonContainer = styled.div`
     display: flex;
     text-align: right;
     margin-left: 79vw;
+    background-color: transparent;
 `;
 
 const Navbar = () => {
