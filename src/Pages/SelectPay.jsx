@@ -8,12 +8,31 @@ const MenuList = styled.div`
 
 `;
 
+const MenuItem = styled.div`
+
+`;
+
 const PaymentListContainer = styled.div`
+
+`;
+
+const MethodContainer = styled.div`
 `;
 
 const SelectPay = () => {
   return (
-    <div>SelectPay</div>
+    <MainContainer>
+          <MenuList>
+                <MenuItem>First</MenuItem>
+                <MenuItem>Second</MenuItem>
+                <MenuItem>Third</MenuItem>
+          </MenuList>
+          <PaymentListContainer>
+                 <MethodContainer>Visa</MethodContainer>
+                 <MethodContainer>Apple pay</MethodContainer>
+                 <MethodContainer>Bancontact</MethodContainer>
+          </PaymentListContainer>
+    </MainContainer>
   )
 }
 
