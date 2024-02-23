@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 const MainContainer = styled.div`
       background-color: #0D4D4D;
+      display: flex;
 `;
 
 const MenuList = styled.div`
@@ -9,11 +10,11 @@ const MenuList = styled.div`
 `;
 
 const MenuItem = styled.div`
-
+      margin-left: 5vw;
 `;
 
 const PaymentListContainer = styled.div`
-
+      margin-left: 50vw;
 `;
 
 const MethodContainer = styled.div`
