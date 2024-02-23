@@ -10,10 +10,12 @@ const MenuList = styled.div`
 `;
 
 const MenuItem = styled.div`
+      background-color: darkgreen;
       margin-left: 5vw;
 `;
 
 const PaymentListContainer = styled.div`
+      background-color: darkgreen;
       margin-left: 50vw;
 `;
 
