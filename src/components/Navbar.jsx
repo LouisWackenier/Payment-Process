@@ -34,6 +34,8 @@ const RegistrationButton = styled.button`
     width: 5vw;
     border-radius: 5px;
     border: transparent;
+    color: black;
+    font-weight: 500;
     margin-left: 1vw;
     margin-right: 1vw;
 
@@ -53,6 +55,7 @@ const LogInButton = styled.button`
     background-color: #197272;
     font-size: 1rem;
     width: 100px;
+    font-weight: 500;
     border-radius: 5px;
     border: transparent;
     
