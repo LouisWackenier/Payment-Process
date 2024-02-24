@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const MainContainer = styled.div`
     height: 6vh;
-    width: 99vw;
+    width: 100%;
 
     display: flex;
     background-color: #166665;
