@@ -6,20 +6,30 @@ const MainContainer = styled.div`
 `;
 
 const MenuList = styled.div`
-
+      margin-top: 4vh;
+      margin-left: 3vw;
+      width: 40vw;
+      height: 40vh;
+      background-color: darkgreen;
 `;
 
 const MenuItem = styled.div`
-      background-color: darkgreen;
+      background-color: transparent;
       margin-left: 5vw;
 `;
 
 const PaymentListContainer = styled.div`
+      margin-top: 4vh;
+      margin-right: 4vw;
+
+      width: 40vw;
+      height: 40vh;
       background-color: darkgreen;
       margin-left: 50vw;
 `;
 
 const MethodContainer = styled.div`
+      background-color: transparent;
 `;
 
 const SelectPay = () => {
