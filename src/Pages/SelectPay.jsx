@@ -6,9 +6,9 @@ const MainContainer = styled.div`
 `;
 
 const MenuList = styled.div`
-      margin-top: 4vh;
-      margin-left: 3vw;
-      width: 40vw;
+      margin-top: 1.5vh;
+      margin-left: 1vw;
+      width: 20vw;
       height: 40vh;
       background-color: darkgreen;
 `;
@@ -19,13 +19,13 @@ const MenuItem = styled.div`
 `;
 
 const PaymentListContainer = styled.div`
-      margin-top: 4vh;
-      margin-right: 4vw;
+      margin-top: 1.5vh;
+      margin-right: 1vw;
 
-      width: 40vw;
+      width: 80vw;
       height: 40vh;
       background-color: darkgreen;
-      margin-left: 50vw;
+      margin-left: 1vw;
 `;
 
 const MethodContainer = styled.div`
