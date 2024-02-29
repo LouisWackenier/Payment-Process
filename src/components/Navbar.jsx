@@ -25,6 +25,11 @@ const DepositButton = styled.button`
 
     width: 50px;
     height: 50px;
+    transition: background-color 1s;
+
+    &:hover{
+      background-color: black;
+    }
 `;
 
 const RegistrationButton = styled.button`
